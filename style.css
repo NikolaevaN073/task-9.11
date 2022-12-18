@@ -1,0 +1,23 @@
+.card-item {
+    padding: 0.6rem;
+    margin: 0.4rem;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: 5px;
+    text-align: left;
+}
+
+.main-item {
+    text-align: center;
+}
+
+.value-output {
+    color:#007bff;
+}
+
+.card {
+    border-color: lightgray;
+}
+
+.card-item:nth-child(2n) {
+    background: rgba(0,0,0,.03);
+}
