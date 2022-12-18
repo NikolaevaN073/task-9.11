@@ -121,7 +121,7 @@ const personGenerator = {
         } else {
             this.randomIntNumber(31, 1);
         }
-        return `${day} ${month()} ${this.randomIntNumber(1955, 2000)} года`;
+        return `${day} ${month()} ${this.randomIntNumber(2000, 1955)} года`;
     },
 
     randomPatronymic: function () {
